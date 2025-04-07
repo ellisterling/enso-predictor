@@ -1,1 +1,3 @@
-# enso-predictor
+# Predicting ENSO Phases
+### Abstract
+This project aims to assess the predictability of ENSO phases. To accomplish this, I will develop a Logistic Regression model that classifies the future ENSO phase as either El Nino, La Nina, or Neutral. Success evaluation for this project will depend on a few factors. One, it may not be possible to create an accurate classifier for this problem without analyzing the atmospheric processes that contribute to it. I will begin by assessing if the model can successfully classify a current phase, and if I can achieve reasonable accuracy with that, then I will 

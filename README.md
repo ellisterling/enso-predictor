@@ -24,5 +24,14 @@ In this project, I think one of my main goals is surrounding data processing and
 This is a pretty risky project in terms of scope. Although ENSO is a relatively well known pattern, weather patterns in general are difficult to predict and not very well understood. Also, without implementing some sort of climate model, it may be difficult to identify future ENSO phases based on just the pure data. It is possible that there is not enough of a pattern to the data to identify future ENSO phases. However, there should be enough of a pattern to identify current ENSO phases, so that will be a backup deliverable.
 
 ### Ethics Statement
+People that have the potential to benefit from this project include scientists studying ENSO as well as people who live in regions where the weather differs drastically based on the ENSO phase such as India (whose monsoon season is determined by ENSO). Potential harm could come from this project in that if it is wrong, and its results are used to prepare for weather conditions, that people could be unprepared for the unexpected phase.
+
+I don't know that the world would be a definitively better place because of this algorithm, but I do think that it would have a positive effect on ENSO research and would add to the applications of machine learning in Earth and Atmospheric Science. This is assuming that ENSO is predictable based on patterns in ocean and weather data. Additionally, it is assuming that this classification algorithm would be better than the highly detailed climate models that simulate atmospheric conditions and circulations. Finally, it assumes that global warming will not alter the patterns of ENSO enough to modify how it would be predicted.
 
 ### Tentative Timeline
+
+##### Three-week check in:
+At the three-week check in, I will aim to have consolidated the data into one clean dataframe that will be simple to implement Logistic Regression on. I will have been able to do some exploratory plotting, and will have hopefully begun implementing Logistic Regression so that I can get to the point where my model can identify current ENSO conditions.
+
+##### Six-week check in:
+At this point, I will have implemented a model that attempts to classify ENSO conditions six months in the future. If this model does not have high accuracy, I will have implemented a model that can successfully classify current ENSO conditions.
